@@ -1,0 +1,88 @@
+{
+    "layers": [
+        {
+            "id": 0,
+            "name": null,
+            "relationships": [
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 1,
+                    "keyField": "globalid",
+                    "name": "Collar_Deployment_Mule_Deer_1_0_temperature_",
+                    "relatedTableId": 1,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleOrigin"
+                },
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 2,
+                    "keyField": "globalid",
+                    "name": "Collar_Deployment_Mule_Deer_1_0_heart_rate_",
+                    "relatedTableId": 2,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleOrigin"
+                },
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 3,
+                    "keyField": "globalid",
+                    "name": "Collar_Deployment_Mule_Deer_1_0_respiration_rate_",
+                    "relatedTableId": 3,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleOrigin"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": null,
+            "relationships": [
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 1,
+                    "keyField": "parentglobalid",
+                    "name": "Collar_Deployment_Mule_Deer_1_0_temperature_",
+                    "relatedTableId": 0,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleDestination"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": null,
+            "relationships": [
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 2,
+                    "keyField": "parentglobalid",
+                    "name": "Collar_Deployment_Mule_Deer_1_0_heart_rate_",
+                    "relatedTableId": 0,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleDestination"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": null,
+            "relationships": [
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 3,
+                    "keyField": "parentglobalid",
+                    "name": "Collar_Deployment_Mule_Deer_1_0_respiration_rate_",
+                    "relatedTableId": 0,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleDestination"
+                }
+            ]
+        }
+    ]
+}

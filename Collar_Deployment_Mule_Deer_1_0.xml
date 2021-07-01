@@ -1,0 +1,2185 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:esri="http://esri.com/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:odk="http://www.opendatakit.org/xforms" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>Collar Deployment Mule Deer 1.0</h:title>
+    <model>
+      <itext>
+        <translation default="true()" lang="default">
+          <text id="static_instance-subunits-34">
+            <value>Yellowstone</value>
+          </text>
+          <text id="static_instance-subunits-31">
+            <value>Vernal</value>
+          </text>
+          <text id="static_instance-subunits-30">
+            <value>Timpanogos</value>
+          </text>
+          <text id="static_instance-subunits-33">
+            <value>West Daggett</value>
+          </text>
+          <text id="static_instance-subunits-32">
+            <value>Vernon</value>
+          </text>
+          <text id="static_instance-units-25">
+            <value>San Rafael</value>
+          </text>
+          <text id="static_instance-units-24">
+            <value>San Juan</value>
+          </text>
+          <text id="static_instance-units-27">
+            <value>Southwest Desert</value>
+          </text>
+          <text id="static_instance-yes_no_ukn-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-yes_no_ukn-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-yes_no_ukn-2">
+            <value>Unknown</value>
+          </text>
+          <text id="static_instance-units-26">
+            <value>South Slope</value>
+          </text>
+          <text id="static_instance-ear_tag_color-2">
+            <value>Yellow</value>
+          </text>
+          <text id="static_instance-ear_tag_color-3">
+            <value>Green</value>
+          </text>
+          <text id="static_instance-ear_tag_color-0">
+            <value>Red</value>
+          </text>
+          <text id="static_instance-ear_tag_color-1">
+            <value>Orange</value>
+          </text>
+          <text id="static_instance-ear_tag_color-6">
+            <value>Pink</value>
+          </text>
+          <text id="static_instance-ear_tag_color-7">
+            <value>White</value>
+          </text>
+          <text id="static_instance-ear_tag_color-4">
+            <value>Blue</value>
+          </text>
+          <text id="static_instance-ear_tag_color-5">
+            <value>Purple</value>
+          </text>
+          <text id="static_instance-subunits-28">
+            <value>Thousand Lakes</value>
+          </text>
+          <text id="static_instance-subunits-29">
+            <value>Three Corners</value>
+          </text>
+          <text id="static_instance-subunits-22">
+            <value>Range Creek</value>
+          </text>
+          <text id="static_instance-subunits-23">
+            <value>Salt Lake</value>
+          </text>
+          <text id="static_instance-subunits-20">
+            <value>Oquirrh Mtns</value>
+          </text>
+          <text id="static_instance-subunits-21">
+            <value>Pahvant</value>
+          </text>
+          <text id="static_instance-subunits-26">
+            <value>Stansbury</value>
+          </text>
+          <text id="static_instance-subunits-27">
+            <value>Summit</value>
+          </text>
+          <text id="static_instance-subunits-24">
+            <value>South</value>
+          </text>
+          <text id="static_instance-subunits-25">
+            <value>South Cache</value>
+          </text>
+          <text id="static_instance-deer_type-0">
+            <value>Adult</value>
+          </text>
+          <text id="static_instance-deer_type-1">
+            <value>Fawn</value>
+          </text>
+          <text id="static_instance-deer_type-2">
+            <value>Yearling</value>
+          </text>
+          <text id="static_instance-chase_time-0">
+            <value>&lt; 1 min</value>
+          </text>
+          <text id="static_instance-chase_time-1">
+            <value>1-2 min</value>
+          </text>
+          <text id="static_instance-chase_time-2">
+            <value>3-5 min</value>
+          </text>
+          <text id="static_instance-chase_time-3">
+            <value>&gt; 5 min</value>
+          </text>
+          <text id="static_instance-ship_name-1">
+            <value>MD500</value>
+          </text>
+          <text id="static_instance-ship_name-0">
+            <value>R44</value>
+          </text>
+          <text id="static_instance-yes_no-1">
+            <value>No</value>
+          </text>
+          <text id="static_instance-units-14">
+            <value>Morgan-South Rich</value>
+          </text>
+          <text id="static_instance-units-15">
+            <value>Mt. Dutton</value>
+          </text>
+          <text id="static_instance-units-16">
+            <value>Nine Mile</value>
+          </text>
+          <text id="static_instance-units-17">
+            <value>North Slope</value>
+          </text>
+          <text id="static_instance-units-10">
+            <value>Kaiparowits</value>
+          </text>
+          <text id="static_instance-units-11">
+            <value>Kamas</value>
+          </text>
+          <text id="static_instance-units-12">
+            <value>La Sal</value>
+          </text>
+          <text id="static_instance-units-13">
+            <value>Monroe</value>
+          </text>
+          <text id="static_instance-weight-0">
+            <value>Animal Weight</value>
+          </text>
+          <text id="static_instance-weight-1">
+            <value>Total Weight (stretcher + chains)</value>
+          </text>
+          <text id="static_instance-event_type-1">
+            <value>Recapture</value>
+          </text>
+          <text id="static_instance-event_type-0">
+            <value>Initial Capture</value>
+          </text>
+          <text id="static_instance-event_type-3">
+            <value>Recapture and Translocation</value>
+          </text>
+          <text id="static_instance-event_type-2">
+            <value>Initial Capture and Translocation</value>
+          </text>
+          <text id="static_instance-manufacturer-0">
+            <value>ATS</value>
+          </text>
+          <text id="static_instance-lactation-0">
+            <value>0</value>
+          </text>
+          <text id="static_instance-manufacturer-2">
+            <value>Microwave</value>
+          </text>
+          <text id="static_instance-manufacturer-1">
+            <value>Lotek</value>
+          </text>
+          <text id="static_instance-lactation-1">
+            <value>0.25</value>
+          </text>
+          <text id="static_instance-lactation-2">
+            <value>0.5</value>
+          </text>
+          <text id="static_instance-lactation-3">
+            <value>0.75</value>
+          </text>
+          <text id="static_instance-lactation-4">
+            <value>1</value>
+          </text>
+          <text id="static_instance-rating-1">
+            <value>2 Stars</value>
+          </text>
+          <text id="static_instance-rating-0">
+            <value>1 Star</value>
+          </text>
+          <text id="static_instance-rating-3">
+            <value>4 Stars</value>
+          </text>
+          <text id="static_instance-rating-2">
+            <value>3 Stars</value>
+          </text>
+          <text id="static_instance-rating-4">
+            <value>5 Stars</value>
+          </text>
+          <text id="static_instance-sex-1">
+            <value>Female</value>
+          </text>
+          <text id="static_instance-sex-0">
+            <value>Male</value>
+          </text>
+          <text id="static_instance-units-30">
+            <value>Zion</value>
+          </text>
+          <text id="static_instance-subunits-3">
+            <value>Bonanza</value>
+          </text>
+          <text id="static_instance-subunits-2">
+            <value>Bitter Creek</value>
+          </text>
+          <text id="static_instance-subunits-1">
+            <value>Anthro</value>
+          </text>
+          <text id="static_instance-subunits-0">
+            <value>Abajo Mountains</value>
+          </text>
+          <text id="static_instance-subunits-7">
+            <value>Diamond Fork</value>
+          </text>
+          <text id="static_instance-subunits-6">
+            <value>Deep Creek</value>
+          </text>
+          <text id="static_instance-subunits-5">
+            <value>Currant Creek-Avintaquin</value>
+          </text>
+          <text id="static_instance-subunits-4">
+            <value>Boulder</value>
+          </text>
+          <text id="static_instance-subunits-9">
+            <value>Dolores Triangle</value>
+          </text>
+          <text id="static_instance-subunits-8">
+            <value>Diamond Mountain</value>
+          </text>
+          <text id="static_instance-age_certainty-0">
+            <value>High (A)</value>
+          </text>
+          <text id="static_instance-age_certainty-1">
+            <value>Medium (B)</value>
+          </text>
+          <text id="static_instance-age_certainty-2">
+            <value>Low (C)</value>
+          </text>
+          <text id="static_instance-units-18">
+            <value>Ogden</value>
+          </text>
+          <text id="static_instance-units-19">
+            <value>Oquirrh-Stansbury</value>
+          </text>
+          <text id="static_instance-units-29">
+            <value>West Desert</value>
+          </text>
+          <text id="static_instance-units-28">
+            <value>Wasatch Mountains</value>
+          </text>
+          <text id="static_instance-affiliation-3">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-affiliation-2">
+            <value>USU</value>
+          </text>
+          <text id="static_instance-affiliation-1">
+            <value>BYU</value>
+          </text>
+          <text id="static_instance-affiliation-0">
+            <value>UDWR</value>
+          </text>
+          <text id="static_instance-units-21">
+            <value>Paunsaugunt</value>
+          </text>
+          <text id="static_instance-units-20">
+            <value>Panguitch Lake</value>
+          </text>
+          <text id="static_instance-units-23">
+            <value>Plateau</value>
+          </text>
+          <text id="static_instance-units-22">
+            <value>Pine Valley</value>
+          </text>
+          <text id="static_instance-capture_method-4">
+            <value>Drive Net</value>
+          </text>
+          <text id="static_instance-capture_method-5">
+            <value>Other</value>
+          </text>
+          <text id="static_instance-capture_method-0">
+            <value>Helicopter/Net Gun</value>
+          </text>
+          <text id="static_instance-capture_method-1">
+            <value>Chemical Immobilization</value>
+          </text>
+          <text id="static_instance-capture_method-2">
+            <value>Clover Trap</value>
+          </text>
+          <text id="static_instance-capture_method-3">
+            <value>Drop Trap</value>
+          </text>
+          <text id="static_instance-cohort-1">
+            <value>Yearling ( ≥ 1 yr and &lt; 2 yrs)</value>
+          </text>
+          <text id="static_instance-cohort-0">
+            <value>Juvenile ( &lt;  1yr)</value>
+          </text>
+          <text id="static_instance-cohort-3">
+            <value>Unknown</value>
+          </text>
+          <text id="static_instance-cohort-2">
+            <value>Adult ( &gt; 2yrs)</value>
+          </text>
+          <text id="static_instance-subunits-13">
+            <value>La Sal Mountains</value>
+          </text>
+          <text id="static_instance-subunits-12">
+            <value>Heber</value>
+          </text>
+          <text id="static_instance-subunits-11">
+            <value>Fishlake</value>
+          </text>
+          <text id="static_instance-subunits-10">
+            <value>Elk Ridge</value>
+          </text>
+          <text id="static_instance-subunits-17">
+            <value>North Cache</value>
+          </text>
+          <text id="static_instance-subunits-16">
+            <value>Nebo</value>
+          </text>
+          <text id="static_instance-subunits-15">
+            <value>Manti</value>
+          </text>
+          <text id="static_instance-subunits-14">
+            <value>Little Creek</value>
+          </text>
+          <text id="static_instance-subunits-19">
+            <value>Oak Creek</value>
+          </text>
+          <text id="static_instance-subunits-18">
+            <value>North Tintic</value>
+          </text>
+          <text id="static_instance-yes_no-0">
+            <value>Yes</value>
+          </text>
+          <text id="static_instance-testicle_size-0">
+            <value>1 Small (grape)</value>
+          </text>
+          <text id="static_instance-testicle_size-1">
+            <value>2</value>
+          </text>
+          <text id="static_instance-testicle_size-2">
+            <value>3</value>
+          </text>
+          <text id="static_instance-testicle_size-3">
+            <value>4</value>
+          </text>
+          <text id="static_instance-testicle_size-4">
+            <value>5 Normal (egg)</value>
+          </text>
+          <text id="static_instance-units-2">
+            <value>Book Cliffs</value>
+          </text>
+          <text id="static_instance-units-3">
+            <value>Box Elder</value>
+          </text>
+          <text id="static_instance-units-0">
+            <value>Beaver</value>
+          </text>
+          <text id="static_instance-units-1">
+            <value>Boulder</value>
+          </text>
+          <text id="static_instance-units-6">
+            <value>Chalk Creek</value>
+          </text>
+          <text id="static_instance-units-7">
+            <value>East Canyon</value>
+          </text>
+          <text id="static_instance-units-4">
+            <value>Cache</value>
+          </text>
+          <text id="static_instance-units-5">
+            <value>Central Mountains</value>
+          </text>
+          <text id="static_instance-units-8">
+            <value>Fillmore</value>
+          </text>
+          <text id="static_instance-units-9">
+            <value>Henry Mountains</value>
+          </text>
+        </translation>
+      </itext>
+      <instance>
+        <Collar_Deployment_Mule_Deer_1_0 id="Collar_Deployment_Mule_Deer_1_0">
+          <general_info>
+            <data_source/>
+            <data_sheet_photo/>
+            <collection_date_time>now()</collection_date_time>
+            <collector_firstname/>
+            <collector_lastname/>
+            <email/>
+            <affiliation_org/>
+            <affiliation_other/>
+            <project_name/>
+            <capture_type/>
+            <capture_method/>
+            <other_capture_method/>
+            <company_name/>
+            <pilot_name/>
+            <ship_name/>
+            <chase_time/>
+            <capture_time/>
+            <arrival_time/>
+            <release_time/>
+          </general_info>
+          <prev_collar_info>
+            <barcode_prev/>
+            <prev_manufacturer/>
+            <prev_serial_num/>
+            <prev_freq/>
+            <prev_label_photo/>
+            <prev_ear_tag/>
+            <prev_ear_tag_color/>
+          </prev_collar_info>
+          <new_collar_info>
+            <barcode_new/>
+            <new_manufacturer/>
+            <new_serial_num/>
+            <new_freq/>
+            <new_label_photo/>
+            <new_ear_tag/>
+            <new_ear_tag_color/>
+          </new_collar_info>
+          <capture_loc>
+            <capture_state_utah/>
+            <capture_unit/>
+            <capture_subunit/>
+            <capture_area/>
+            <capture_location/>
+            <capture_lat/>
+            <capture_long/>
+          </capture_loc>
+          <animal_info>
+            <deer_type/>
+            <sex/>
+            <temperature_ jr:template="">
+              <temperature/>
+              <temp_time/>
+            </temperature_>
+            <heart_rate_ jr:template="">
+              <heart_rate/>
+            </heart_rate_>
+            <respiration_rate_ jr:template="">
+              <respiration_rate/>
+            </respiration_rate_>
+            <estimated_age/>
+            <ager/>
+            <estimated_age_certainty/>
+            <weight_type/>
+            <weight_kg/>
+            <chest_girth_cm/>
+            <body_length_cm/>
+            <neck_circumference_cm/>
+            <left_hind_cm/>
+            <metatarsus_cm/>
+            <body_condition_score/>
+            <bcs_scorer/>
+            <rump_fat_mm/>
+            <loin_thickness_mm/>
+            <pregnant/>
+            <vit/>
+            <vit_frequency/>
+            <banamine/>
+            <vitamin_e/>
+            <other_injection/>
+            <other_injection_type/>
+            <lactation/>
+            <testicle_size/>
+            <velvet/>
+            <antler_width_cm/>
+            <main_beam_length_left_cm/>
+            <main_beam_length_right_cm/>
+            <antler_points_left_cm/>
+            <antler_points_right_cm/>
+            <blood/>
+            <sample_blood/>
+            <cwd/>
+            <sample_cwd/>
+            <fecal/>
+            <sample_fecal/>
+            <animal_info_photo/>
+          </animal_info>
+          <mort_group>
+            <release_state_utah/>
+            <trans_to_unit/>
+            <trans_to_subunit/>
+            <trans_release_area/>
+            <trans_release_location/>
+            <trans_to_lat/>
+            <trans_to_long/>
+          </mort_group>
+          <notes_grp>
+            <notes/>
+          </notes_grp>
+          <meta>
+            <instanceID/>
+          </meta>
+        </Collar_Deployment_Mule_Deer_1_0>
+      </instance>
+      <instance id="@geopoint" src="jr://file-csv/@geopoint.csv">
+        <root>
+          <item>
+            <name>_</name>
+            <label>_</label>
+          </item>
+        </root>
+      </instance>
+      <instance id="deer_type">
+        <root>
+          <item>
+            <itextId>static_instance-deer_type-0</itextId>
+            <name>adult</name>
+          </item>
+          <item>
+            <itextId>static_instance-deer_type-1</itextId>
+            <name>fawn</name>
+          </item>
+          <item>
+            <itextId>static_instance-deer_type-2</itextId>
+            <name>yearling</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="rating">
+        <root>
+          <item>
+            <itextId>static_instance-rating-0</itextId>
+            <name>1</name>
+          </item>
+          <item>
+            <itextId>static_instance-rating-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-rating-2</itextId>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-rating-3</itextId>
+            <name>4</name>
+          </item>
+          <item>
+            <itextId>static_instance-rating-4</itextId>
+            <name>5</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="chase_time">
+        <root>
+          <item>
+            <itextId>static_instance-chase_time-0</itextId>
+            <name>&lt; 1 min</name>
+          </item>
+          <item>
+            <itextId>static_instance-chase_time-1</itextId>
+            <name>1-2 min</name>
+          </item>
+          <item>
+            <itextId>static_instance-chase_time-2</itextId>
+            <name>3-5 min</name>
+          </item>
+          <item>
+            <itextId>static_instance-chase_time-3</itextId>
+            <name>&gt; 5 min</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="ear_tag_color">
+        <root>
+          <item>
+            <itextId>static_instance-ear_tag_color-0</itextId>
+            <name>Red</name>
+          </item>
+          <item>
+            <itextId>static_instance-ear_tag_color-1</itextId>
+            <name>Orange</name>
+          </item>
+          <item>
+            <itextId>static_instance-ear_tag_color-2</itextId>
+            <name>Yellow</name>
+          </item>
+          <item>
+            <itextId>static_instance-ear_tag_color-3</itextId>
+            <name>Green</name>
+          </item>
+          <item>
+            <itextId>static_instance-ear_tag_color-4</itextId>
+            <name>Blue</name>
+          </item>
+          <item>
+            <itextId>static_instance-ear_tag_color-5</itextId>
+            <name>Purple</name>
+          </item>
+          <item>
+            <itextId>static_instance-ear_tag_color-6</itextId>
+            <name>Pink</name>
+          </item>
+          <item>
+            <itextId>static_instance-ear_tag_color-7</itextId>
+            <name>White</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="event_type">
+        <root>
+          <item>
+            <itextId>static_instance-event_type-0</itextId>
+            <name>initial</name>
+          </item>
+          <item>
+            <itextId>static_instance-event_type-1</itextId>
+            <name>recapture</name>
+          </item>
+          <item>
+            <itextId>static_instance-event_type-2</itextId>
+            <name>initialtranslocate</name>
+          </item>
+          <item>
+            <itextId>static_instance-event_type-3</itextId>
+            <name>recaptranslocate</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="weight">
+        <root>
+          <item>
+            <itextId>static_instance-weight-0</itextId>
+            <name>animal_weight</name>
+          </item>
+          <item>
+            <itextId>static_instance-weight-1</itextId>
+            <name>total_weight</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="cohort">
+        <root>
+          <item>
+            <itextId>static_instance-cohort-0</itextId>
+            <name>juvenile</name>
+          </item>
+          <item>
+            <itextId>static_instance-cohort-1</itextId>
+            <name>yearling</name>
+          </item>
+          <item>
+            <itextId>static_instance-cohort-2</itextId>
+            <name>adult</name>
+          </item>
+          <item>
+            <itextId>static_instance-cohort-3</itextId>
+            <name>unknown</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="testicle_size">
+        <root>
+          <item>
+            <itextId>static_instance-testicle_size-0</itextId>
+            <name>1_Small_(grape)</name>
+          </item>
+          <item>
+            <itextId>static_instance-testicle_size-1</itextId>
+            <name>2</name>
+          </item>
+          <item>
+            <itextId>static_instance-testicle_size-2</itextId>
+            <name>3</name>
+          </item>
+          <item>
+            <itextId>static_instance-testicle_size-3</itextId>
+            <name>4</name>
+          </item>
+          <item>
+            <itextId>static_instance-testicle_size-4</itextId>
+            <name>5_Normal_(egg)</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="sex">
+        <root>
+          <item>
+            <itextId>static_instance-sex-0</itextId>
+            <name>male</name>
+          </item>
+          <item>
+            <itextId>static_instance-sex-1</itextId>
+            <name>female</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="ship_name">
+        <root>
+          <item>
+            <itextId>static_instance-ship_name-0</itextId>
+            <name>r44</name>
+          </item>
+          <item>
+            <itextId>static_instance-ship_name-1</itextId>
+            <name>md500</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="subunits">
+        <root>
+          <item>
+            <itextId>static_instance-subunits-0</itextId>
+            <unit_filter>San Juan</unit_filter>
+            <name>Abajo Mountains</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-1</itextId>
+            <unit_filter>Nine Mile</unit_filter>
+            <name>Anthro</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-2</itextId>
+            <unit_filter>Book Cliffs</unit_filter>
+            <name>Bitter Creek</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-3</itextId>
+            <unit_filter>South Slope</unit_filter>
+            <name>Bonanza</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-4</itextId>
+            <unit_filter>Plateau</unit_filter>
+            <name>Boulder</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-5</itextId>
+            <unit_filter>Wasatch Mountains</unit_filter>
+            <name>Currant Creek-Avintaquin</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-6</itextId>
+            <unit_filter>West Desert</unit_filter>
+            <name>Deep Creek</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-7</itextId>
+            <unit_filter>Wasatch Mountains</unit_filter>
+            <name>Diamond Fork</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-8</itextId>
+            <unit_filter>South Slope</unit_filter>
+            <name>Diamond Mountain</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-9</itextId>
+            <unit_filter>La Sal</unit_filter>
+            <name>Dolores Triangle</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-10</itextId>
+            <unit_filter>San Juan</unit_filter>
+            <name>Elk Ridge</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-11</itextId>
+            <unit_filter>Plateau</unit_filter>
+            <name>Fishlake</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-12</itextId>
+            <unit_filter>Wasatch Mountains</unit_filter>
+            <name>Heber</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-13</itextId>
+            <unit_filter>La Sal</unit_filter>
+            <name>La Sal Mountains</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-14</itextId>
+            <unit_filter>Book Cliffs</unit_filter>
+            <name>Little Creek</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-15</itextId>
+            <unit_filter>Central Mountains</unit_filter>
+            <name>Manti</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-16</itextId>
+            <unit_filter>Central Mountains</unit_filter>
+            <name>Nebo</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-17</itextId>
+            <unit_filter>Cache</unit_filter>
+            <name>North Cache</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-18</itextId>
+            <unit_filter>West Desert</unit_filter>
+            <name>North Tintic</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-19</itextId>
+            <unit_filter>Fillmore</unit_filter>
+            <name>Oak Creek</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-20</itextId>
+            <unit_filter>Oquirrh-Stansbury</unit_filter>
+            <name>Oquirrh Mtns</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-21</itextId>
+            <unit_filter>Fillmore</unit_filter>
+            <name>Pahvant</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-22</itextId>
+            <unit_filter>Nine Mile</unit_filter>
+            <name>Range Creek</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-23</itextId>
+            <unit_filter>Wasatch Mountains</unit_filter>
+            <name>Salt Lake</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-24</itextId>
+            <unit_filter>Book Cliffs</unit_filter>
+            <name>South</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-25</itextId>
+            <unit_filter>Cache</unit_filter>
+            <name>South Cache</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-26</itextId>
+            <unit_filter>Oquirrh-Stansbury</unit_filter>
+            <name>Stansbury</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-27</itextId>
+            <unit_filter>North Slope</unit_filter>
+            <name>Summit</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-28</itextId>
+            <unit_filter>Plateau</unit_filter>
+            <name>Thousand Lakes</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-29</itextId>
+            <unit_filter>North Slope</unit_filter>
+            <name>Three Corners</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-30</itextId>
+            <unit_filter>Wasatch Mountains</unit_filter>
+            <name>Timpanogos</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-31</itextId>
+            <unit_filter>South Slope</unit_filter>
+            <name>Vernal</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-32</itextId>
+            <unit_filter>West Desert</unit_filter>
+            <name>Vernon</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-33</itextId>
+            <unit_filter>North Slope</unit_filter>
+            <name>West Daggett</name>
+          </item>
+          <item>
+            <itextId>static_instance-subunits-34</itextId>
+            <unit_filter>South Slope</unit_filter>
+            <name>Yellowstone</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="affiliation">
+        <root>
+          <item>
+            <itextId>static_instance-affiliation-0</itextId>
+            <name>udwr</name>
+          </item>
+          <item>
+            <itextId>static_instance-affiliation-1</itextId>
+            <name>byu</name>
+          </item>
+          <item>
+            <itextId>static_instance-affiliation-2</itextId>
+            <name>usu</name>
+          </item>
+          <item>
+            <itextId>static_instance-affiliation-3</itextId>
+            <name>affiliation_other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="age_certainty">
+        <root>
+          <item>
+            <itextId>static_instance-age_certainty-0</itextId>
+            <name>high</name>
+          </item>
+          <item>
+            <itextId>static_instance-age_certainty-1</itextId>
+            <name>medium</name>
+          </item>
+          <item>
+            <itextId>static_instance-age_certainty-2</itextId>
+            <name>low</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="yes_no_ukn">
+        <root>
+          <item>
+            <itextId>static_instance-yes_no_ukn-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no_ukn-1</itextId>
+            <name>no</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no_ukn-2</itextId>
+            <name>unknown</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="lactation">
+        <root>
+          <item>
+            <itextId>static_instance-lactation-0</itextId>
+            <name>0</name>
+          </item>
+          <item>
+            <itextId>static_instance-lactation-1</itextId>
+            <name>0.25</name>
+          </item>
+          <item>
+            <itextId>static_instance-lactation-2</itextId>
+            <name>0.5</name>
+          </item>
+          <item>
+            <itextId>static_instance-lactation-3</itextId>
+            <name>0.75</name>
+          </item>
+          <item>
+            <itextId>static_instance-lactation-4</itextId>
+            <name>1</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="units">
+        <root>
+          <item>
+            <itextId>static_instance-units-0</itextId>
+            <name>Beaver</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-1</itextId>
+            <name>Boulder</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-2</itextId>
+            <name>Book Cliffs</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-3</itextId>
+            <name>Box Elder</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-4</itextId>
+            <name>Cache</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-5</itextId>
+            <name>Central Mountains</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-6</itextId>
+            <name>Chalk Creek</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-7</itextId>
+            <name>East Canyon</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-8</itextId>
+            <name>Fillmore</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-9</itextId>
+            <name>Henry Mountains</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-10</itextId>
+            <name>Kaiparowits</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-11</itextId>
+            <name>Kamas</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-12</itextId>
+            <name>La Sal</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-13</itextId>
+            <name>Monroe</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-14</itextId>
+            <name>Morgan-South Rich</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-15</itextId>
+            <name>Mt. Dutton</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-16</itextId>
+            <name>Nine Mile</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-17</itextId>
+            <name>North Slope</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-18</itextId>
+            <name>Ogden</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-19</itextId>
+            <name>Oquirrh-Stansbury</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-20</itextId>
+            <name>Panguitch Lake</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-21</itextId>
+            <name>Paunsaugunt</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-22</itextId>
+            <name>Pine Valley</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-23</itextId>
+            <name>Plateau</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-24</itextId>
+            <name>San Juan</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-25</itextId>
+            <name>San Rafael</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-26</itextId>
+            <name>South Slope</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-27</itextId>
+            <name>Southwest Desert</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-28</itextId>
+            <name>Wasatch Mountains</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-29</itextId>
+            <name>West Desert</name>
+          </item>
+          <item>
+            <itextId>static_instance-units-30</itextId>
+            <name>Zion</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="capture_method">
+        <root>
+          <item>
+            <itextId>static_instance-capture_method-0</itextId>
+            <name>heli_net</name>
+          </item>
+          <item>
+            <itextId>static_instance-capture_method-1</itextId>
+            <name>chem_immobil</name>
+          </item>
+          <item>
+            <itextId>static_instance-capture_method-2</itextId>
+            <name>clover_trap</name>
+          </item>
+          <item>
+            <itextId>static_instance-capture_method-3</itextId>
+            <name>drop_trap</name>
+          </item>
+          <item>
+            <itextId>static_instance-capture_method-4</itextId>
+            <name>drive_net</name>
+          </item>
+          <item>
+            <itextId>static_instance-capture_method-5</itextId>
+            <name>capture_other</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="yes_no">
+        <root>
+          <item>
+            <itextId>static_instance-yes_no-0</itextId>
+            <name>yes</name>
+          </item>
+          <item>
+            <itextId>static_instance-yes_no-1</itextId>
+            <name>no</name>
+          </item>
+        </root>
+      </instance>
+      <instance id="manufacturer">
+        <root>
+          <item>
+            <itextId>static_instance-manufacturer-0</itextId>
+            <name>ATS</name>
+          </item>
+          <item>
+            <itextId>static_instance-manufacturer-1</itextId>
+            <name>Lotek</name>
+          </item>
+          <item>
+            <itextId>static_instance-manufacturer-2</itextId>
+            <name>Microwave</name>
+          </item>
+        </root>
+      </instance>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/general_info/data_source" required="true()" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/general_info/data_sheet_photo" relevant=" /Collar_Deployment_Mule_Deer_1_0/general_info/data_source  = 'yes'" required="true()" type="binary"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/general_info/collection_date_time" required="true()" type="dateTime"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/general_info/collector_firstname" required="true()" type="string"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/general_info/collector_lastname" required="true()" type="string"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/general_info/email" required="true()" type="string"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/general_info/affiliation_org" required="true()" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/general_info/affiliation_other" relevant=" /Collar_Deployment_Mule_Deer_1_0/general_info/affiliation_org  = 'affiliation_other'" required="true()" type="string"/>
+      <bind esri:fieldLength="50" nodeset="/Collar_Deployment_Mule_Deer_1_0/general_info/project_name" type="string"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/general_info/capture_type" required="true()" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/general_info/capture_method" required="true()" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/general_info/other_capture_method" relevant=" /Collar_Deployment_Mule_Deer_1_0/general_info/capture_method  = 'capture_other'" required="true()" type="string"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/general_info/company_name" relevant=" /Collar_Deployment_Mule_Deer_1_0/general_info/capture_method  = 'heli_net'" type="string"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/general_info/pilot_name" relevant=" /Collar_Deployment_Mule_Deer_1_0/general_info/capture_method  = 'heli_net'" type="string"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/general_info/ship_name" relevant=" /Collar_Deployment_Mule_Deer_1_0/general_info/capture_method  = 'heli_net'" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/general_info/chase_time" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/general_info/capture_time" type="time"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/general_info/arrival_time" type="time"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/general_info/release_time" type="time"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/prev_collar_info" relevant=" /Collar_Deployment_Mule_Deer_1_0/general_info/capture_type  = 'recapture' or  /Collar_Deployment_Mule_Deer_1_0/general_info/capture_type  = 'recaptranslocate'"/>
+      <bind esri:fieldType="null" nodeset="/Collar_Deployment_Mule_Deer_1_0/prev_collar_info/barcode_prev" readonly="true()" relevant=" /Collar_Deployment_Mule_Deer_1_0/general_info/data_source  = 'no'" type="barcode"/>
+      <bind calculate="if(substr( /Collar_Deployment_Mule_Deer_1_0/prev_collar_info/barcode_prev ,0,3)=&quot;ATS&quot;,&quot;ATS&quot;,&quot;&quot;)" nodeset="/Collar_Deployment_Mule_Deer_1_0/prev_collar_info/prev_manufacturer" required="true()" type="select1"/>
+      <bind calculate="substr( /Collar_Deployment_Mule_Deer_1_0/prev_collar_info/barcode_prev ,12,18)" esri:fieldLength="6" nodeset="/Collar_Deployment_Mule_Deer_1_0/prev_collar_info/prev_serial_num" required="true()" type="string"/>
+      <bind calculate="substr( /Collar_Deployment_Mule_Deer_1_0/prev_collar_info/barcode_prev ,24,31)" esri:fieldLength="7" nodeset="/Collar_Deployment_Mule_Deer_1_0/prev_collar_info/prev_freq" required="true()" type="decimal"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/prev_collar_info/prev_label_photo" relevant=" /Collar_Deployment_Mule_Deer_1_0/general_info/data_source  = 'no'" type="binary"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/prev_collar_info/prev_ear_tag" type="int"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/prev_collar_info/prev_ear_tag_color" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/new_collar_info" relevant=" /Collar_Deployment_Mule_Deer_1_0/general_info/capture_type  = 'recapture' or  /Collar_Deployment_Mule_Deer_1_0/general_info/capture_type  = 'initial' or  /Collar_Deployment_Mule_Deer_1_0/general_info/capture_type  = 'initialtranslocate' or  /Collar_Deployment_Mule_Deer_1_0/general_info/capture_type  = 'recaptranslocate'"/>
+      <bind esri:fieldType="null" nodeset="/Collar_Deployment_Mule_Deer_1_0/new_collar_info/barcode_new" readonly="true()" relevant=" /Collar_Deployment_Mule_Deer_1_0/general_info/data_source  = 'no'" type="barcode"/>
+      <bind calculate="if(substr( /Collar_Deployment_Mule_Deer_1_0/new_collar_info/barcode_new ,0,3)=&quot;ATS&quot;,&quot;ATS&quot;,&quot;&quot;)" nodeset="/Collar_Deployment_Mule_Deer_1_0/new_collar_info/new_manufacturer" required="true()" type="select1"/>
+      <bind calculate="substr( /Collar_Deployment_Mule_Deer_1_0/new_collar_info/barcode_new ,12,18)" esri:fieldLength="6" nodeset="/Collar_Deployment_Mule_Deer_1_0/new_collar_info/new_serial_num" required="true()" type="string"/>
+      <bind calculate="substr( /Collar_Deployment_Mule_Deer_1_0/new_collar_info/barcode_new ,24,31)" esri:fieldLength="7" nodeset="/Collar_Deployment_Mule_Deer_1_0/new_collar_info/new_freq" required="true()" type="decimal"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/new_collar_info/new_label_photo" relevant=" /Collar_Deployment_Mule_Deer_1_0/general_info/data_source  = 'no'" type="binary"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/new_collar_info/new_ear_tag" type="int"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/new_collar_info/new_ear_tag_color" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/capture_loc" relevant=" /Collar_Deployment_Mule_Deer_1_0/general_info/capture_type  = 'recapture' or  /Collar_Deployment_Mule_Deer_1_0/general_info/capture_type  = 'initial' or  /Collar_Deployment_Mule_Deer_1_0/general_info/capture_type  = 'initialtranslocate' or  /Collar_Deployment_Mule_Deer_1_0/general_info/capture_type  = 'recaptranslocate'"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_state_utah" required="true()" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_unit" relevant=" /Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_state_utah  = 'yes'" required="true()" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_subunit" relevant=" /Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_unit  = 'Book Cliffs' or  /Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_unit  = 'Cache' or  /Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_unit  = 'Central Mountains' or  /Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_unit  = 'Fillmore' or  /Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_unit  = 'La Sal' or  /Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_unit  = 'Nine Mile' or  /Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_unit  = 'North Slope' or  /Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_unit  = 'Oquirrh-Stansbury' or  /Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_unit  = 'Plateau' or  /Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_unit  = 'San Juan' or  /Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_unit  = 'South Slope' or  /Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_unit  = 'Wasatch Mountains' or  /Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_unit  = 'West Desert'" required="true()" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_area" type="string"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_location" type="geopoint"/>
+      <bind calculate="pulldata('@geopoint',  /Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_location , 'y')" nodeset="/Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_lat" type="decimal"/>
+      <bind calculate="pulldata('@geopoint',  /Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_location , 'x')" nodeset="/Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_long" type="decimal"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info" relevant=" /Collar_Deployment_Mule_Deer_1_0/general_info/capture_type  = 'recapture' or  /Collar_Deployment_Mule_Deer_1_0/general_info/capture_type  = 'initial' or  /Collar_Deployment_Mule_Deer_1_0/general_info/capture_type  = 'initialtranslocate' or  /Collar_Deployment_Mule_Deer_1_0/general_info/capture_type  = 'recaptranslocate'"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type" required="true()" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/sex" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn'" required="true()" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/temperature_" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/temperature_/temperature" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="decimal"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/temperature_/temp_time" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="time"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/heart_rate_" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/heart_rate_/heart_rate" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="int"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/respiration_rate_" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/respiration_rate_/respiration_rate" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="int"/>
+      <bind constraint=".&gt;0 and .&lt; 20" esri:fieldLength="4" jr:constraintMsg="decimal required" nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/estimated_age" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="decimal"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/ager" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="string"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/estimated_age_certainty" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/weight_type" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/weight_kg" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/weight_type  = 'total_weight' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/weight_type  = 'animal_weight'" type="decimal"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/chest_girth_cm" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="decimal"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/body_length_cm" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="decimal"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/neck_circumference_cm" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="decimal"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/left_hind_cm" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="decimal"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/metatarsus_cm" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="decimal"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/body_condition_score" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="decimal"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/bcs_scorer" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="string"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/rump_fat_mm" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="decimal"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/loin_thickness_mm" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="decimal"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/pregnant" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female'" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/vit" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female'" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/vit_frequency" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/vit  = 'yes'" type="string"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/banamine" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female'" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/vitamin_e" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female'" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/other_injection" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female'" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/other_injection_type" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/other_injection  = 'yes'" type="string"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/lactation" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female'" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/testicle_size" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/velvet" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/antler_width_cm" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="decimal"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/main_beam_length_left_cm" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="decimal"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/main_beam_length_right_cm" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="decimal"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/antler_points_left_cm" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="decimal"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/antler_points_right_cm" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="decimal"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/blood" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/sample_blood" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/blood  = 'yes'" type="string"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/cwd" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/sample_cwd" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/cwd  = 'yes'" type="string"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/fecal" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/sample_fecal" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/fecal  = 'yes'" type="string"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/animal_info_photo" relevant=" /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'female' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'fawn' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'adult' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male' or  /Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type  = 'yearling' and  /Collar_Deployment_Mule_Deer_1_0/animal_info/sex  = 'male'" type="binary"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/mort_group" relevant=" /Collar_Deployment_Mule_Deer_1_0/general_info/capture_type  = 'initialtranslocate' or  /Collar_Deployment_Mule_Deer_1_0/general_info/capture_type  = 'recaptranslocate'"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/mort_group/release_state_utah" required="true()" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/mort_group/trans_to_unit" relevant=" /Collar_Deployment_Mule_Deer_1_0/mort_group/release_state_utah  = 'yes' and  /Collar_Deployment_Mule_Deer_1_0/general_info/capture_type  = 'initialtranslocate' or  /Collar_Deployment_Mule_Deer_1_0/mort_group/release_state_utah  = 'yes' and  /Collar_Deployment_Mule_Deer_1_0/general_info/capture_type  = 'recaptranslocate'" required="true()" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/mort_group/trans_to_subunit" relevant=" /Collar_Deployment_Mule_Deer_1_0/mort_group/trans_to_unit  = 'Book Cliffs' or  /Collar_Deployment_Mule_Deer_1_0/mort_group/trans_to_unit  = 'Cache' or  /Collar_Deployment_Mule_Deer_1_0/mort_group/trans_to_unit  = 'Central Mountains' or  /Collar_Deployment_Mule_Deer_1_0/mort_group/trans_to_unit  = 'Fillmore' or  /Collar_Deployment_Mule_Deer_1_0/mort_group/trans_to_unit  = 'La Sal' or  /Collar_Deployment_Mule_Deer_1_0/mort_group/trans_to_unit  = 'Nine Mile' or  /Collar_Deployment_Mule_Deer_1_0/mort_group/trans_to_unit  = 'North Slope' or  /Collar_Deployment_Mule_Deer_1_0/mort_group/trans_to_unit  = 'Oquirrh-Stansbury' or  /Collar_Deployment_Mule_Deer_1_0/mort_group/trans_to_unit  = 'Plateau' or  /Collar_Deployment_Mule_Deer_1_0/mort_group/trans_to_unit  = 'San Juan' or  /Collar_Deployment_Mule_Deer_1_0/mort_group/trans_to_unit  = 'South Slope' or  /Collar_Deployment_Mule_Deer_1_0/mort_group/trans_to_unit  = 'Wasatch Mountains' or  /Collar_Deployment_Mule_Deer_1_0/mort_group/trans_to_unit  = 'West Desert'" required="true()" type="select1"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/mort_group/trans_release_area" type="string"/>
+      <bind esri:fieldType="null" nodeset="/Collar_Deployment_Mule_Deer_1_0/mort_group/trans_release_location" type="geopoint"/>
+      <bind calculate="pulldata('@geopoint',  /Collar_Deployment_Mule_Deer_1_0/mort_group/trans_release_location , 'y')" nodeset="/Collar_Deployment_Mule_Deer_1_0/mort_group/trans_to_lat" type="decimal"/>
+      <bind calculate="pulldata('@geopoint',  /Collar_Deployment_Mule_Deer_1_0/mort_group/trans_release_location , 'x')" nodeset="/Collar_Deployment_Mule_Deer_1_0/mort_group/trans_to_long" type="decimal"/>
+      <bind nodeset="/Collar_Deployment_Mule_Deer_1_0/notes_grp/notes" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/Collar_Deployment_Mule_Deer_1_0/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group ref="/Collar_Deployment_Mule_Deer_1_0/general_info">
+      <label>General Information</label>
+      <select1 appearance="horizontal-compact" ref="/Collar_Deployment_Mule_Deer_1_0/general_info/data_source">
+        <label>Are you entering information from a datasheet?</label>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <upload mediatype="image/*" ref="/Collar_Deployment_Mule_Deer_1_0/general_info/data_sheet_photo">
+        <label>Datasheet Photo</label>
+      </upload>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/general_info/collection_date_time">
+        <label>Data Collection Date/Time</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/general_info/collector_firstname">
+        <label>First Name</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/general_info/collector_lastname">
+        <label>Last Name</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/general_info/email">
+        <label>Email Address</label>
+      </input>
+      <select1 ref="/Collar_Deployment_Mule_Deer_1_0/general_info/affiliation_org">
+        <label>Affiliation</label>
+        <item>
+          <label>UDWR</label>
+          <value>udwr</value>
+        </item>
+        <item>
+          <label>BYU</label>
+          <value>byu</value>
+        </item>
+        <item>
+          <label>USU</label>
+          <value>usu</value>
+        </item>
+        <item>
+          <label>Other</label>
+          <value>affiliation_other</value>
+        </item>
+      </select1>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/general_info/affiliation_other">
+        <label>Other</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/general_info/project_name">
+        <label>Project Name</label>
+      </input>
+      <select1 appearance="minimal" ref="/Collar_Deployment_Mule_Deer_1_0/general_info/capture_type">
+        <label>Capture Type</label>
+        <item>
+          <label>Initial Capture</label>
+          <value>initial</value>
+        </item>
+        <item>
+          <label>Recapture</label>
+          <value>recapture</value>
+        </item>
+        <item>
+          <label>Initial Capture and Translocation</label>
+          <value>initialtranslocate</value>
+        </item>
+        <item>
+          <label>Recapture and Translocation</label>
+          <value>recaptranslocate</value>
+        </item>
+      </select1>
+      <select1 ref="/Collar_Deployment_Mule_Deer_1_0/general_info/capture_method">
+        <label>Capture Method</label>
+        <item>
+          <label>Helicopter/Net Gun</label>
+          <value>heli_net</value>
+        </item>
+        <item>
+          <label>Chemical Immobilization</label>
+          <value>chem_immobil</value>
+        </item>
+        <item>
+          <label>Clover Trap</label>
+          <value>clover_trap</value>
+        </item>
+        <item>
+          <label>Drop Trap</label>
+          <value>drop_trap</value>
+        </item>
+        <item>
+          <label>Drive Net</label>
+          <value>drive_net</value>
+        </item>
+        <item>
+          <label>Other</label>
+          <value>capture_other</value>
+        </item>
+      </select1>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/general_info/other_capture_method">
+        <label>Other</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/general_info/company_name">
+        <label>Company</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/general_info/pilot_name">
+        <label>Pilot</label>
+      </input>
+      <select1 appearance="minimal" ref="/Collar_Deployment_Mule_Deer_1_0/general_info/ship_name">
+        <label>Ship</label>
+        <item>
+          <label>R44</label>
+          <value>r44</value>
+        </item>
+        <item>
+          <label>MD500</label>
+          <value>md500</value>
+        </item>
+      </select1>
+      <select1 ref="/Collar_Deployment_Mule_Deer_1_0/general_info/chase_time">
+        <label>Chase Time</label>
+        <item>
+          <label>&lt; 1 min</label>
+          <value>&lt; 1 min</value>
+        </item>
+        <item>
+          <label>1-2 min</label>
+          <value>1-2 min</value>
+        </item>
+        <item>
+          <label>3-5 min</label>
+          <value>3-5 min</value>
+        </item>
+        <item>
+          <label>&gt; 5 min</label>
+          <value>&gt; 5 min</value>
+        </item>
+      </select1>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/general_info/capture_time">
+        <label>Capture Time</label>
+        <hint>TOD animal was captured</hint>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/general_info/arrival_time">
+        <label>Arrival Time</label>
+        <hint>TOD animal arrived at staging area</hint>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/general_info/release_time">
+        <label>Release Time</label>
+        <hint>TOD animal was released</hint>
+      </input>
+    </group>
+    <group appearance="compact" ref="/Collar_Deployment_Mule_Deer_1_0/prev_collar_info">
+      <label>Previous Collar Information</label>
+      <input appearance="minimal" ref="/Collar_Deployment_Mule_Deer_1_0/prev_collar_info/barcode_prev">
+        <label>QR Code</label>
+      </input>
+      <select1 ref="/Collar_Deployment_Mule_Deer_1_0/prev_collar_info/prev_manufacturer">
+        <label>Manufacturer</label>
+        <item>
+          <label>ATS</label>
+          <value>ATS</value>
+        </item>
+        <item>
+          <label>Lotek</label>
+          <value>Lotek</value>
+        </item>
+        <item>
+          <label>Microwave</label>
+          <value>Microwave</value>
+        </item>
+      </select1>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/prev_collar_info/prev_serial_num">
+        <label>Serial Number (6 Digits, e.g., 041911)</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/prev_collar_info/prev_freq">
+        <label>Frequency (6 digits, e.g., 149.200)</label>
+      </input>
+      <upload mediatype="image/*" ref="/Collar_Deployment_Mule_Deer_1_0/prev_collar_info/prev_label_photo">
+        <label>Label Photo</label>
+      </upload>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/prev_collar_info/prev_ear_tag">
+        <label>Ear Tag #</label>
+      </input>
+      <select1 appearance="minimal" ref="/Collar_Deployment_Mule_Deer_1_0/prev_collar_info/prev_ear_tag_color">
+        <label>Ear Tag Color</label>
+        <item>
+          <label>Red</label>
+          <value>Red</value>
+        </item>
+        <item>
+          <label>Orange</label>
+          <value>Orange</value>
+        </item>
+        <item>
+          <label>Yellow</label>
+          <value>Yellow</value>
+        </item>
+        <item>
+          <label>Green</label>
+          <value>Green</value>
+        </item>
+        <item>
+          <label>Blue</label>
+          <value>Blue</value>
+        </item>
+        <item>
+          <label>Purple</label>
+          <value>Purple</value>
+        </item>
+        <item>
+          <label>Pink</label>
+          <value>Pink</value>
+        </item>
+        <item>
+          <label>White</label>
+          <value>White</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="compact" ref="/Collar_Deployment_Mule_Deer_1_0/new_collar_info">
+      <label>New Collar Information</label>
+      <input appearance="minimal" ref="/Collar_Deployment_Mule_Deer_1_0/new_collar_info/barcode_new">
+        <label>QR Code</label>
+      </input>
+      <select1 ref="/Collar_Deployment_Mule_Deer_1_0/new_collar_info/new_manufacturer">
+        <label>Manufacturer</label>
+        <item>
+          <label>ATS</label>
+          <value>ATS</value>
+        </item>
+        <item>
+          <label>Lotek</label>
+          <value>Lotek</value>
+        </item>
+        <item>
+          <label>Microwave</label>
+          <value>Microwave</value>
+        </item>
+      </select1>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/new_collar_info/new_serial_num">
+        <label>Serial Number (6 Digits, e.g., 041911)</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/new_collar_info/new_freq">
+        <label>Frequency (6 digits, e.g., 149.200)</label>
+      </input>
+      <upload mediatype="image/*" ref="/Collar_Deployment_Mule_Deer_1_0/new_collar_info/new_label_photo">
+        <label>Label Photo</label>
+      </upload>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/new_collar_info/new_ear_tag">
+        <label>Ear Tag #</label>
+      </input>
+      <select1 appearance="minimal" ref="/Collar_Deployment_Mule_Deer_1_0/new_collar_info/new_ear_tag_color">
+        <label>Ear Tag Color</label>
+        <item>
+          <label>Red</label>
+          <value>Red</value>
+        </item>
+        <item>
+          <label>Orange</label>
+          <value>Orange</value>
+        </item>
+        <item>
+          <label>Yellow</label>
+          <value>Yellow</value>
+        </item>
+        <item>
+          <label>Green</label>
+          <value>Green</value>
+        </item>
+        <item>
+          <label>Blue</label>
+          <value>Blue</value>
+        </item>
+        <item>
+          <label>Purple</label>
+          <value>Purple</value>
+        </item>
+        <item>
+          <label>Pink</label>
+          <value>Pink</value>
+        </item>
+        <item>
+          <label>White</label>
+          <value>White</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="compact" ref="/Collar_Deployment_Mule_Deer_1_0/capture_loc">
+      <label>Capture Location Information</label>
+      <select1 appearance="horizontal-compact" ref="/Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_state_utah">
+        <label>Captured in Utah?</label>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 appearance="autocomplete" ref="/Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_unit">
+        <label>Unit</label>
+        <item>
+          <label>Beaver</label>
+          <value>Beaver</value>
+        </item>
+        <item>
+          <label>Boulder</label>
+          <value>Boulder</value>
+        </item>
+        <item>
+          <label>Book Cliffs</label>
+          <value>Book Cliffs</value>
+        </item>
+        <item>
+          <label>Box Elder</label>
+          <value>Box Elder</value>
+        </item>
+        <item>
+          <label>Cache</label>
+          <value>Cache</value>
+        </item>
+        <item>
+          <label>Central Mountains</label>
+          <value>Central Mountains</value>
+        </item>
+        <item>
+          <label>Chalk Creek</label>
+          <value>Chalk Creek</value>
+        </item>
+        <item>
+          <label>East Canyon</label>
+          <value>East Canyon</value>
+        </item>
+        <item>
+          <label>Fillmore</label>
+          <value>Fillmore</value>
+        </item>
+        <item>
+          <label>Henry Mountains</label>
+          <value>Henry Mountains</value>
+        </item>
+        <item>
+          <label>Kaiparowits</label>
+          <value>Kaiparowits</value>
+        </item>
+        <item>
+          <label>Kamas</label>
+          <value>Kamas</value>
+        </item>
+        <item>
+          <label>La Sal</label>
+          <value>La Sal</value>
+        </item>
+        <item>
+          <label>Monroe</label>
+          <value>Monroe</value>
+        </item>
+        <item>
+          <label>Morgan-South Rich</label>
+          <value>Morgan-South Rich</value>
+        </item>
+        <item>
+          <label>Mt. Dutton</label>
+          <value>Mt. Dutton</value>
+        </item>
+        <item>
+          <label>Nine Mile</label>
+          <value>Nine Mile</value>
+        </item>
+        <item>
+          <label>North Slope</label>
+          <value>North Slope</value>
+        </item>
+        <item>
+          <label>Ogden</label>
+          <value>Ogden</value>
+        </item>
+        <item>
+          <label>Oquirrh-Stansbury</label>
+          <value>Oquirrh-Stansbury</value>
+        </item>
+        <item>
+          <label>Panguitch Lake</label>
+          <value>Panguitch Lake</value>
+        </item>
+        <item>
+          <label>Paunsaugunt</label>
+          <value>Paunsaugunt</value>
+        </item>
+        <item>
+          <label>Pine Valley</label>
+          <value>Pine Valley</value>
+        </item>
+        <item>
+          <label>Plateau</label>
+          <value>Plateau</value>
+        </item>
+        <item>
+          <label>San Juan</label>
+          <value>San Juan</value>
+        </item>
+        <item>
+          <label>San Rafael</label>
+          <value>San Rafael</value>
+        </item>
+        <item>
+          <label>South Slope</label>
+          <value>South Slope</value>
+        </item>
+        <item>
+          <label>Southwest Desert</label>
+          <value>Southwest Desert</value>
+        </item>
+        <item>
+          <label>Wasatch Mountains</label>
+          <value>Wasatch Mountains</value>
+        </item>
+        <item>
+          <label>West Desert</label>
+          <value>West Desert</value>
+        </item>
+        <item>
+          <label>Zion</label>
+          <value>Zion</value>
+        </item>
+      </select1>
+      <select1 appearance="autocomplete" ref="/Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_subunit">
+        <label>Subunit</label>
+        <itemset nodeset="instance('subunits')/root/item[unit_filter =  /Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_unit ]">
+          <value ref="name"/>
+          <label ref="jr:itext(itextId)"/>
+        </itemset>
+      </select1>
+      <input appearance="autocomplete" ref="/Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_area">
+        <label>Capture Area</label>
+        <hint>Description of local area (e.g., Nash Wash)</hint>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_location">
+        <label>Capture Location</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_lat">
+        <label>Latitude</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/capture_loc/capture_long">
+        <label>Longitude</label>
+      </input>
+    </group>
+    <group appearance="compact" ref="/Collar_Deployment_Mule_Deer_1_0/animal_info">
+      <label>Animal Information</label>
+      <select1 appearance="minimal" ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/deer_type">
+        <label>Stage Class</label>
+        <item>
+          <label>Adult</label>
+          <value>adult</value>
+        </item>
+        <item>
+          <label>Fawn</label>
+          <value>fawn</value>
+        </item>
+        <item>
+          <label>Yearling</label>
+          <value>yearling</value>
+        </item>
+      </select1>
+      <select1 appearance="horizontal-compact" ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/sex">
+        <label>Sex</label>
+        <item>
+          <label>Male</label>
+          <value>male</value>
+        </item>
+        <item>
+          <label>Female</label>
+          <value>female</value>
+        </item>
+      </select1>
+      <group ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/temperature_">
+        <label></label>
+        <repeat nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/temperature_">
+          <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/temperature_/temperature">
+            <label>Temperature (°F)</label>
+          </input>
+          <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/temperature_/temp_time">
+            <label>Time</label>
+          </input>
+        </repeat>
+      </group>
+      <group ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/heart_rate_">
+        <label></label>
+        <repeat nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/heart_rate_">
+          <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/heart_rate_/heart_rate">
+            <label>Heart Rate (beats/min)</label>
+          </input>
+        </repeat>
+      </group>
+      <group ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/respiration_rate_">
+        <label></label>
+        <repeat nodeset="/Collar_Deployment_Mule_Deer_1_0/animal_info/respiration_rate_">
+          <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/respiration_rate_/respiration_rate">
+            <label>Respiration Rate (breaths/min)</label>
+          </input>
+        </repeat>
+      </group>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/estimated_age">
+        <label>Estimated Age</label>
+        <hint>years, e.g., 2.5</hint>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/ager">
+        <label>Ager</label>
+      </input>
+      <select1 appearance="horizontal-compact" ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/estimated_age_certainty">
+        <label>Estimated Age Certainty</label>
+        <item>
+          <label>High (A)</label>
+          <value>high</value>
+        </item>
+        <item>
+          <label>Medium (B)</label>
+          <value>medium</value>
+        </item>
+        <item>
+          <label>Low (C)</label>
+          <value>low</value>
+        </item>
+      </select1>
+      <select1 appearance="horizontal-compact" ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/weight_type">
+        <label>Weight (kg)</label>
+        <item>
+          <label>Animal Weight</label>
+          <value>animal_weight</value>
+        </item>
+        <item>
+          <label>Total Weight (stretcher + chains)</label>
+          <value>total_weight</value>
+        </item>
+      </select1>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/weight_kg">
+        <label>Weight</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/chest_girth_cm">
+        <label>Chest Girth (cm)</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/body_length_cm">
+        <label>Body Length (cm)</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/neck_circumference_cm">
+        <label>Neck Circumference (cm)</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/left_hind_cm">
+        <label>Left Hind Foot Length (cm)</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/metatarsus_cm">
+        <label>Metatarsus Length (cm)</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/body_condition_score">
+        <label>Body Condition Score</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/bcs_scorer">
+        <label>BCS Scorer</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/rump_fat_mm">
+        <label>Rump Fat (mm)</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/loin_thickness_mm">
+        <label>Loin Thickness (mm)</label>
+      </input>
+      <select1 appearance="horizontal-compact" ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/pregnant">
+        <label>Pregnant</label>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+        <item>
+          <label>Unknown</label>
+          <value>unknown</value>
+        </item>
+      </select1>
+      <select1 appearance="horizontal-compact" ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/vit">
+        <label>VIT</label>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/vit_frequency">
+        <label>Frequency</label>
+      </input>
+      <select1 appearance="horizontal-compact" ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/banamine">
+        <label>Banamine</label>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 appearance="horizontal-compact" ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/vitamin_e">
+        <label>Vitamin E</label>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 appearance="horizontal-compact" ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/other_injection">
+        <label>Other Injection</label>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/other_injection_type">
+        <label>Other</label>
+      </input>
+      <select1 appearance="horizontal-compact" ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/lactation">
+        <label>Lactation</label>
+        <item>
+          <label>0</label>
+          <value>0</value>
+        </item>
+        <item>
+          <label>0.25</label>
+          <value>0.25</value>
+        </item>
+        <item>
+          <label>0.5</label>
+          <value>0.5</value>
+        </item>
+        <item>
+          <label>0.75</label>
+          <value>0.75</value>
+        </item>
+        <item>
+          <label>1</label>
+          <value>1</value>
+        </item>
+      </select1>
+      <select1 appearance="horizontal-compact" ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/testicle_size">
+        <label>Testicles</label>
+        <hint>Size</hint>
+        <item>
+          <label>1 Small (grape)</label>
+          <value>1_Small_(grape)</value>
+        </item>
+        <item>
+          <label>2</label>
+          <value>2</value>
+        </item>
+        <item>
+          <label>3</label>
+          <value>3</value>
+        </item>
+        <item>
+          <label>4</label>
+          <value>4</value>
+        </item>
+        <item>
+          <label>5 Normal (egg)</label>
+          <value>5_Normal_(egg)</value>
+        </item>
+      </select1>
+      <select1 appearance="horizontal-compact" ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/velvet">
+        <label>Velvet</label>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/antler_width_cm">
+        <label>Antler Width (cm)</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/main_beam_length_left_cm">
+        <label>Main Beam Length L (cm)</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/main_beam_length_right_cm">
+        <label>Main Beam Length R (cm)</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/antler_points_left_cm">
+        <label>Points L (cm)</label>
+        <hint># of points on Left Antler (points &gt; 2.5 cm)</hint>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/antler_points_right_cm">
+        <label>Points R (cm)</label>
+        <hint># of points on Right Antler (points &gt; 2.5 cm)</hint>
+      </input>
+      <select1 appearance="horizontal-compact" ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/blood">
+        <label>Blood</label>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/sample_blood">
+        <label>Sample #</label>
+      </input>
+      <select1 appearance="horizontal-compact" ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/cwd">
+        <label>CWD</label>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/sample_cwd">
+        <label>Sample #</label>
+      </input>
+      <select1 appearance="horizontal-compact" ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/fecal">
+        <label>Fecal</label>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/sample_fecal">
+        <label>Sample #</label>
+      </input>
+      <upload mediatype="image/*" ref="/Collar_Deployment_Mule_Deer_1_0/animal_info/animal_info_photo">
+        <label>Animal Photo</label>
+      </upload>
+    </group>
+    <group appearance="compact" ref="/Collar_Deployment_Mule_Deer_1_0/mort_group">
+      <label>Translocation Information</label>
+      <select1 appearance="horizontal-compact" ref="/Collar_Deployment_Mule_Deer_1_0/mort_group/release_state_utah">
+        <label>Released in Utah?</label>
+        <item>
+          <label>Yes</label>
+          <value>yes</value>
+        </item>
+        <item>
+          <label>No</label>
+          <value>no</value>
+        </item>
+      </select1>
+      <select1 appearance="autocomplete" ref="/Collar_Deployment_Mule_Deer_1_0/mort_group/trans_to_unit">
+        <label>Unit</label>
+        <item>
+          <label>Beaver</label>
+          <value>Beaver</value>
+        </item>
+        <item>
+          <label>Boulder</label>
+          <value>Boulder</value>
+        </item>
+        <item>
+          <label>Book Cliffs</label>
+          <value>Book Cliffs</value>
+        </item>
+        <item>
+          <label>Box Elder</label>
+          <value>Box Elder</value>
+        </item>
+        <item>
+          <label>Cache</label>
+          <value>Cache</value>
+        </item>
+        <item>
+          <label>Central Mountains</label>
+          <value>Central Mountains</value>
+        </item>
+        <item>
+          <label>Chalk Creek</label>
+          <value>Chalk Creek</value>
+        </item>
+        <item>
+          <label>East Canyon</label>
+          <value>East Canyon</value>
+        </item>
+        <item>
+          <label>Fillmore</label>
+          <value>Fillmore</value>
+        </item>
+        <item>
+          <label>Henry Mountains</label>
+          <value>Henry Mountains</value>
+        </item>
+        <item>
+          <label>Kaiparowits</label>
+          <value>Kaiparowits</value>
+        </item>
+        <item>
+          <label>Kamas</label>
+          <value>Kamas</value>
+        </item>
+        <item>
+          <label>La Sal</label>
+          <value>La Sal</value>
+        </item>
+        <item>
+          <label>Monroe</label>
+          <value>Monroe</value>
+        </item>
+        <item>
+          <label>Morgan-South Rich</label>
+          <value>Morgan-South Rich</value>
+        </item>
+        <item>
+          <label>Mt. Dutton</label>
+          <value>Mt. Dutton</value>
+        </item>
+        <item>
+          <label>Nine Mile</label>
+          <value>Nine Mile</value>
+        </item>
+        <item>
+          <label>North Slope</label>
+          <value>North Slope</value>
+        </item>
+        <item>
+          <label>Ogden</label>
+          <value>Ogden</value>
+        </item>
+        <item>
+          <label>Oquirrh-Stansbury</label>
+          <value>Oquirrh-Stansbury</value>
+        </item>
+        <item>
+          <label>Panguitch Lake</label>
+          <value>Panguitch Lake</value>
+        </item>
+        <item>
+          <label>Paunsaugunt</label>
+          <value>Paunsaugunt</value>
+        </item>
+        <item>
+          <label>Pine Valley</label>
+          <value>Pine Valley</value>
+        </item>
+        <item>
+          <label>Plateau</label>
+          <value>Plateau</value>
+        </item>
+        <item>
+          <label>San Juan</label>
+          <value>San Juan</value>
+        </item>
+        <item>
+          <label>San Rafael</label>
+          <value>San Rafael</value>
+        </item>
+        <item>
+          <label>South Slope</label>
+          <value>South Slope</value>
+        </item>
+        <item>
+          <label>Southwest Desert</label>
+          <value>Southwest Desert</value>
+        </item>
+        <item>
+          <label>Wasatch Mountains</label>
+          <value>Wasatch Mountains</value>
+        </item>
+        <item>
+          <label>West Desert</label>
+          <value>West Desert</value>
+        </item>
+        <item>
+          <label>Zion</label>
+          <value>Zion</value>
+        </item>
+      </select1>
+      <select1 appearance="autocomplete" ref="/Collar_Deployment_Mule_Deer_1_0/mort_group/trans_to_subunit">
+        <label>Subunit</label>
+        <itemset nodeset="instance('subunits')/root/item[unit_filter =  /Collar_Deployment_Mule_Deer_1_0/mort_group/trans_to_unit ]">
+          <value ref="name"/>
+          <label ref="jr:itext(itextId)"/>
+        </itemset>
+      </select1>
+      <input appearance="autocomplete" ref="/Collar_Deployment_Mule_Deer_1_0/mort_group/trans_release_area">
+        <label>Release Area</label>
+        <hint>Description of local area (e.g., Nash Wash)</hint>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/mort_group/trans_release_location">
+        <label>Capture Location</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/mort_group/trans_to_lat">
+        <label>Latitude</label>
+      </input>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/mort_group/trans_to_long">
+        <label>Longitude</label>
+      </input>
+    </group>
+    <group appearance="compact" ref="/Collar_Deployment_Mule_Deer_1_0/notes_grp">
+      <label>Notes</label>
+      <input ref="/Collar_Deployment_Mule_Deer_1_0/notes_grp/notes">
+        <label>Notes</label>
+      </input>
+    </group>
+  </h:body>
+</h:html>

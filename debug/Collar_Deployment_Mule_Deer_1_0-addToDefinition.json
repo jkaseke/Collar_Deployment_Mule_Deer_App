@@ -1,0 +1,1922 @@
+{
+    "layers": [
+        {
+            "adminLayerInfo": {
+                "geometryField": {
+                    "name": "capture_location",
+                    "srid": 4326
+                }
+            },
+            "allowGeometryUpdates": true,
+            "capabilities": "Query,Editing,Create,Update,Delete",
+            "copyrightText": "",
+            "defaultVisibility": true,
+            "description": "",
+            "displayField": "objectid",
+            "drawingInfo": {
+                "labelingInfo": null,
+                "renderer": {
+                    "description": "Survey Data Locations",
+                    "label": "Collar Deployment Mule Deer 1.0",
+                    "symbol": {
+                        "angle": 0,
+                        "color": [
+                            255,
+                            0,
+                            0,
+                            255
+                        ],
+                        "outline": {
+                            "color": [
+                                255,
+                                255,
+                                0,
+                                255
+                            ],
+                            "width": 1
+                        },
+                        "size": 8,
+                        "style": "esriSMSCircle",
+                        "type": "esriSMS",
+                        "xoffset": 0,
+                        "yoffset": 0
+                    },
+                    "type": "simple"
+                },
+                "transparency": 0
+            },
+            "extent": {
+                "spatialReference": {
+                    "wkid": 4326
+                },
+                "type": "extent",
+                "xmax": 180,
+                "xmin": -180,
+                "ymax": 90,
+                "ymin": -90
+            },
+            "fields": [
+                {
+                    "alias": "ObjectID",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": false,
+                    "name": "objectid",
+                    "nullable": false,
+                    "type": "esriFieldTypeOID"
+                },
+                {
+                    "alias": "GlobalID",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": false,
+                    "length": 38,
+                    "name": "globalid",
+                    "nullable": false,
+                    "sqlType": "sqlTypeGUID",
+                    "type": "esriFieldTypeGlobalID"
+                },
+                {
+                    "alias": "Are you entering information from a datasheet?",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "yes",
+                                "name": "Yes"
+                            },
+                            {
+                                "code": "no",
+                                "name": "No"
+                            }
+                        ],
+                        "name": "cvd_data_source",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "data_source",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Data Collection Date/Time",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "collection_date_time",
+                    "nullable": true,
+                    "type": "esriFieldTypeDate",
+                    "visible": true
+                },
+                {
+                    "alias": "First Name",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "collector_firstname",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Last Name",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "collector_lastname",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Email Address",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "email",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Affiliation",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "udwr",
+                                "name": "UDWR"
+                            },
+                            {
+                                "code": "byu",
+                                "name": "BYU"
+                            },
+                            {
+                                "code": "usu",
+                                "name": "USU"
+                            },
+                            {
+                                "code": "affiliation_other",
+                                "name": "Other"
+                            }
+                        ],
+                        "name": "cvd_affiliation_org",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "affiliation_org",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Other",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "affiliation_other",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Project Name",
+                    "domain": null,
+                    "editable": true,
+                    "length": 50,
+                    "name": "project_name",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Capture Type",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "initial",
+                                "name": "Initial Capture"
+                            },
+                            {
+                                "code": "recapture",
+                                "name": "Recapture"
+                            },
+                            {
+                                "code": "initialtranslocate",
+                                "name": "Initial Capture and Translocation"
+                            },
+                            {
+                                "code": "recaptranslocate",
+                                "name": "Recapture and Translocation"
+                            }
+                        ],
+                        "name": "cvd_capture_type",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "capture_type",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Capture Method",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "heli_net",
+                                "name": "Helicopter/Net Gun"
+                            },
+                            {
+                                "code": "chem_immobil",
+                                "name": "Chemical Immobilization"
+                            },
+                            {
+                                "code": "clover_trap",
+                                "name": "Clover Trap"
+                            },
+                            {
+                                "code": "drop_trap",
+                                "name": "Drop Trap"
+                            },
+                            {
+                                "code": "drive_net",
+                                "name": "Drive Net"
+                            },
+                            {
+                                "code": "capture_other",
+                                "name": "Other"
+                            }
+                        ],
+                        "name": "cvd_capture_method",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "capture_method",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Other",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "other_capture_method",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Company",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "company_name",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Pilot",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "pilot_name",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Ship",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "r44",
+                                "name": "R44"
+                            },
+                            {
+                                "code": "md500",
+                                "name": "MD500"
+                            }
+                        ],
+                        "name": "cvd_ship_name",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "ship_name",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Chase Time",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "< 1 min",
+                                "name": "< 1 min"
+                            },
+                            {
+                                "code": "1-2 min",
+                                "name": "1-2 min"
+                            },
+                            {
+                                "code": "3-5 min",
+                                "name": "3-5 min"
+                            },
+                            {
+                                "code": "> 5 min",
+                                "name": "> 5 min"
+                            }
+                        ],
+                        "name": "cvd_chase_time",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "chase_time",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Capture Time",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "capture_time",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Arrival Time",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "arrival_time",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Release Time",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "release_time",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Manufacturer",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "ATS",
+                                "name": "ATS"
+                            },
+                            {
+                                "code": "Lotek",
+                                "name": "Lotek"
+                            },
+                            {
+                                "code": "Microwave",
+                                "name": "Microwave"
+                            }
+                        ],
+                        "name": "cvd_prev_manufacturer",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "prev_manufacturer",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Serial Number (6 Digits, e.g., 041911)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 6,
+                    "name": "prev_serial_num",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Frequency (6 digits, e.g., 149.200)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 7,
+                    "name": "prev_freq",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Ear Tag #",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "prev_ear_tag",
+                    "nullable": true,
+                    "type": "esriFieldTypeInteger",
+                    "visible": true
+                },
+                {
+                    "alias": "Ear Tag Color",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "Red",
+                                "name": "Red"
+                            },
+                            {
+                                "code": "Orange",
+                                "name": "Orange"
+                            },
+                            {
+                                "code": "Yellow",
+                                "name": "Yellow"
+                            },
+                            {
+                                "code": "Green",
+                                "name": "Green"
+                            },
+                            {
+                                "code": "Blue",
+                                "name": "Blue"
+                            },
+                            {
+                                "code": "Purple",
+                                "name": "Purple"
+                            },
+                            {
+                                "code": "Pink",
+                                "name": "Pink"
+                            },
+                            {
+                                "code": "White",
+                                "name": "White"
+                            }
+                        ],
+                        "name": "cvd_prev_ear_tag_color",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "prev_ear_tag_color",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Manufacturer",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "ATS",
+                                "name": "ATS"
+                            },
+                            {
+                                "code": "Lotek",
+                                "name": "Lotek"
+                            },
+                            {
+                                "code": "Microwave",
+                                "name": "Microwave"
+                            }
+                        ],
+                        "name": "cvd_new_manufacturer",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "new_manufacturer",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Serial Number (6 Digits, e.g., 041911)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 6,
+                    "name": "new_serial_num",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Frequency (6 digits, e.g., 149.200)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 7,
+                    "name": "new_freq",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Ear Tag #",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "new_ear_tag",
+                    "nullable": true,
+                    "type": "esriFieldTypeInteger",
+                    "visible": true
+                },
+                {
+                    "alias": "Ear Tag Color",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "Red",
+                                "name": "Red"
+                            },
+                            {
+                                "code": "Orange",
+                                "name": "Orange"
+                            },
+                            {
+                                "code": "Yellow",
+                                "name": "Yellow"
+                            },
+                            {
+                                "code": "Green",
+                                "name": "Green"
+                            },
+                            {
+                                "code": "Blue",
+                                "name": "Blue"
+                            },
+                            {
+                                "code": "Purple",
+                                "name": "Purple"
+                            },
+                            {
+                                "code": "Pink",
+                                "name": "Pink"
+                            },
+                            {
+                                "code": "White",
+                                "name": "White"
+                            }
+                        ],
+                        "name": "cvd_new_ear_tag_color",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "new_ear_tag_color",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Captured in Utah?",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "yes",
+                                "name": "Yes"
+                            },
+                            {
+                                "code": "no",
+                                "name": "No"
+                            }
+                        ],
+                        "name": "cvd_capture_state_utah",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "capture_state_utah",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Unit",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "Beaver",
+                                "name": "Beaver"
+                            },
+                            {
+                                "code": "Book Cliffs",
+                                "name": "Book Cliffs"
+                            },
+                            {
+                                "code": "Box Elder",
+                                "name": "Box Elder"
+                            },
+                            {
+                                "code": "Cache",
+                                "name": "Cache"
+                            },
+                            {
+                                "code": "Central Mountains",
+                                "name": "Central Mountains"
+                            },
+                            {
+                                "code": "Chalk Creek",
+                                "name": "Chalk Creek"
+                            },
+                            {
+                                "code": "East Canyon",
+                                "name": "East Canyon"
+                            },
+                            {
+                                "code": "Fillmore",
+                                "name": "Fillmore"
+                            },
+                            {
+                                "code": "Henry Mountains",
+                                "name": "Henry Mountains"
+                            },
+                            {
+                                "code": "Kaiparowits",
+                                "name": "Kaiparowits"
+                            },
+                            {
+                                "code": "Kamas",
+                                "name": "Kamas"
+                            },
+                            {
+                                "code": "La Sal",
+                                "name": "La Sal"
+                            },
+                            {
+                                "code": "Monroe",
+                                "name": "Monroe"
+                            },
+                            {
+                                "code": "Morgan-South Rich",
+                                "name": "Morgan-South Rich"
+                            },
+                            {
+                                "code": "Mt. Dutton",
+                                "name": "Mt. Dutton"
+                            },
+                            {
+                                "code": "Nine Mile",
+                                "name": "Nine Mile"
+                            },
+                            {
+                                "code": "North Slope",
+                                "name": "North Slope"
+                            },
+                            {
+                                "code": "Ogden",
+                                "name": "Ogden"
+                            },
+                            {
+                                "code": "Oquirrh-Stansbury",
+                                "name": "Oquirrh-Stansbury"
+                            },
+                            {
+                                "code": "Panguitch Lake",
+                                "name": "Panguitch Lake"
+                            },
+                            {
+                                "code": "Paunsaugunt",
+                                "name": "Paunsaugunt"
+                            },
+                            {
+                                "code": "Pine Valley",
+                                "name": "Pine Valley"
+                            },
+                            {
+                                "code": "Plateau",
+                                "name": "Plateau"
+                            },
+                            {
+                                "code": "San Juan",
+                                "name": "San Juan"
+                            },
+                            {
+                                "code": "San Rafael",
+                                "name": "San Rafael"
+                            },
+                            {
+                                "code": "South Slope",
+                                "name": "South Slope"
+                            },
+                            {
+                                "code": "Southwest Desert",
+                                "name": "Southwest Desert"
+                            },
+                            {
+                                "code": "Wasatch Mountains",
+                                "name": "Wasatch Mountains"
+                            },
+                            {
+                                "code": "West Desert",
+                                "name": "West Desert"
+                            },
+                            {
+                                "code": "Zion",
+                                "name": "Zion"
+                            }
+                        ],
+                        "name": "cvd_capture_unit",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "capture_unit",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Subunit",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "capture_subunit",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Capture Area",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "capture_area",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Latitude",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "capture_lat",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Longitude",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "capture_long",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Stage Class",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "adult",
+                                "name": "Adult"
+                            },
+                            {
+                                "code": "fawn",
+                                "name": "Fawn"
+                            },
+                            {
+                                "code": "yearling",
+                                "name": "Yearling"
+                            }
+                        ],
+                        "name": "cvd_deer_type",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "deer_type",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Sex",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "male",
+                                "name": "Male"
+                            },
+                            {
+                                "code": "female",
+                                "name": "Female"
+                            }
+                        ],
+                        "name": "cvd_sex",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "sex",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Estimated Age",
+                    "domain": null,
+                    "editable": true,
+                    "length": 4,
+                    "name": "estimated_age",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Ager",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "ager",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Estimated Age Certainty",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "high",
+                                "name": "High (A)"
+                            },
+                            {
+                                "code": "medium",
+                                "name": "Medium (B)"
+                            },
+                            {
+                                "code": "low",
+                                "name": "Low (C)"
+                            }
+                        ],
+                        "name": "cvd_estimated_age_certainty",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "estimated_age_certainty",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Weight (kg)",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "animal_weight",
+                                "name": "Animal Weight"
+                            },
+                            {
+                                "code": "total_weight",
+                                "name": "Total Weight (stretcher + chains)"
+                            }
+                        ],
+                        "name": "cvd_weight_type",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "weight_type",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Weight",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "weight_kg",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Chest Girth (cm)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "chest_girth_cm",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Body Length (cm)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "body_length_cm",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Neck Circumference (cm)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "neck_circumference_cm",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Left Hind Foot Length (cm)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "left_hind_cm",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Metatarsus Length (cm)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "metatarsus_cm",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Body Condition Score",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "body_condition_score",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "BCS Scorer",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "bcs_scorer",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Rump Fat (mm)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "rump_fat_mm",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Loin Thickness (mm)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "loin_thickness_mm",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Pregnant",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "yes",
+                                "name": "Yes"
+                            },
+                            {
+                                "code": "no",
+                                "name": "No"
+                            },
+                            {
+                                "code": "unknown",
+                                "name": "Unknown"
+                            }
+                        ],
+                        "name": "cvd_pregnant",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "pregnant",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "VIT",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "yes",
+                                "name": "Yes"
+                            },
+                            {
+                                "code": "no",
+                                "name": "No"
+                            }
+                        ],
+                        "name": "cvd_vit",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "vit",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Frequency",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "vit_frequency",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Banamine",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "yes",
+                                "name": "Yes"
+                            },
+                            {
+                                "code": "no",
+                                "name": "No"
+                            }
+                        ],
+                        "name": "cvd_banamine",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "banamine",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Vitamin E",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "yes",
+                                "name": "Yes"
+                            },
+                            {
+                                "code": "no",
+                                "name": "No"
+                            }
+                        ],
+                        "name": "cvd_vitamin_e",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "vitamin_e",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Other Injection",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "yes",
+                                "name": "Yes"
+                            },
+                            {
+                                "code": "no",
+                                "name": "No"
+                            }
+                        ],
+                        "name": "cvd_other_injection",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "other_injection",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Other",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "other_injection_type",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Lactation",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "0",
+                                "name": "0"
+                            },
+                            {
+                                "code": "0.25",
+                                "name": "0.25"
+                            },
+                            {
+                                "code": "0.5",
+                                "name": "0.5"
+                            },
+                            {
+                                "code": "0.75",
+                                "name": "0.75"
+                            },
+                            {
+                                "code": "1",
+                                "name": "1"
+                            }
+                        ],
+                        "name": "cvd_lactation",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "lactation",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Testicles",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "1_Small_(grape)",
+                                "name": "1 Small (grape)"
+                            },
+                            {
+                                "code": "2",
+                                "name": "2"
+                            },
+                            {
+                                "code": "3",
+                                "name": "3"
+                            },
+                            {
+                                "code": "4",
+                                "name": "4"
+                            },
+                            {
+                                "code": "5_Normal_(egg)",
+                                "name": "5 Normal (egg)"
+                            }
+                        ],
+                        "name": "cvd_testicle_size",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "testicle_size",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Velvet",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "yes",
+                                "name": "Yes"
+                            },
+                            {
+                                "code": "no",
+                                "name": "No"
+                            }
+                        ],
+                        "name": "cvd_velvet",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "velvet",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Antler Width (cm)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "antler_width_cm",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Main Beam Length L (cm)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "main_beam_length_left_cm",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Main Beam Length R (cm)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "main_beam_length_right_cm",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Points L (cm)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "antler_points_left_cm",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Points R (cm)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "antler_points_right_cm",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Blood",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "yes",
+                                "name": "Yes"
+                            },
+                            {
+                                "code": "no",
+                                "name": "No"
+                            }
+                        ],
+                        "name": "cvd_blood",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "blood",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Sample #",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "sample_blood",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "CWD",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "yes",
+                                "name": "Yes"
+                            },
+                            {
+                                "code": "no",
+                                "name": "No"
+                            }
+                        ],
+                        "name": "cvd_cwd",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "cwd",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Sample #",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "sample_cwd",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Fecal",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "yes",
+                                "name": "Yes"
+                            },
+                            {
+                                "code": "no",
+                                "name": "No"
+                            }
+                        ],
+                        "name": "cvd_fecal",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "fecal",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Sample #",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "sample_fecal",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Lactate",
+                    "domain": null,
+                    "editable": true,
+                    "length": 3,
+                    "name": "lactate",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Released in Utah?",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "yes",
+                                "name": "Yes"
+                            },
+                            {
+                                "code": "no",
+                                "name": "No"
+                            }
+                        ],
+                        "name": "cvd_release_state_utah",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "release_state_utah",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Unit",
+                    "domain": {
+                        "codedValues": [
+                            {
+                                "code": "Beaver",
+                                "name": "Beaver"
+                            },
+                            {
+                                "code": "Book Cliffs",
+                                "name": "Book Cliffs"
+                            },
+                            {
+                                "code": "Box Elder",
+                                "name": "Box Elder"
+                            },
+                            {
+                                "code": "Cache",
+                                "name": "Cache"
+                            },
+                            {
+                                "code": "Central Mountains",
+                                "name": "Central Mountains"
+                            },
+                            {
+                                "code": "Chalk Creek",
+                                "name": "Chalk Creek"
+                            },
+                            {
+                                "code": "East Canyon",
+                                "name": "East Canyon"
+                            },
+                            {
+                                "code": "Fillmore",
+                                "name": "Fillmore"
+                            },
+                            {
+                                "code": "Henry Mountains",
+                                "name": "Henry Mountains"
+                            },
+                            {
+                                "code": "Kaiparowits",
+                                "name": "Kaiparowits"
+                            },
+                            {
+                                "code": "Kamas",
+                                "name": "Kamas"
+                            },
+                            {
+                                "code": "La Sal",
+                                "name": "La Sal"
+                            },
+                            {
+                                "code": "Monroe",
+                                "name": "Monroe"
+                            },
+                            {
+                                "code": "Morgan-South Rich",
+                                "name": "Morgan-South Rich"
+                            },
+                            {
+                                "code": "Mt. Dutton",
+                                "name": "Mt. Dutton"
+                            },
+                            {
+                                "code": "Nine Mile",
+                                "name": "Nine Mile"
+                            },
+                            {
+                                "code": "North Slope",
+                                "name": "North Slope"
+                            },
+                            {
+                                "code": "Ogden",
+                                "name": "Ogden"
+                            },
+                            {
+                                "code": "Oquirrh-Stansbury",
+                                "name": "Oquirrh-Stansbury"
+                            },
+                            {
+                                "code": "Panguitch Lake",
+                                "name": "Panguitch Lake"
+                            },
+                            {
+                                "code": "Paunsaugunt",
+                                "name": "Paunsaugunt"
+                            },
+                            {
+                                "code": "Pine Valley",
+                                "name": "Pine Valley"
+                            },
+                            {
+                                "code": "Plateau",
+                                "name": "Plateau"
+                            },
+                            {
+                                "code": "San Juan",
+                                "name": "San Juan"
+                            },
+                            {
+                                "code": "San Rafael",
+                                "name": "San Rafael"
+                            },
+                            {
+                                "code": "South Slope",
+                                "name": "South Slope"
+                            },
+                            {
+                                "code": "Southwest Desert",
+                                "name": "Southwest Desert"
+                            },
+                            {
+                                "code": "Wasatch Mountains",
+                                "name": "Wasatch Mountains"
+                            },
+                            {
+                                "code": "West Desert",
+                                "name": "West Desert"
+                            },
+                            {
+                                "code": "Zion",
+                                "name": "Zion"
+                            }
+                        ],
+                        "name": "cvd_trans_to_unit",
+                        "type": "codedValue"
+                    },
+                    "editable": true,
+                    "length": 255,
+                    "name": "trans_to_unit",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Subunit",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "trans_to_subunit",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Release Area",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "trans_release_area",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "Latitude",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "trans_to_lat",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Longitude",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "trans_to_long",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Notes",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "notes",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                }
+            ],
+            "geometryType": "esriGeometryPoint",
+            "globalIdField": "globalid",
+            "hasAttachments": true,
+            "hasM": false,
+            "hasStaticData": false,
+            "hasZ": false,
+            "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+            "id": 0,
+            "indexes": [
+                {
+                    "description": "GlobalID index",
+                    "fields": "globalid",
+                    "isAscending": false,
+                    "isUnique": true,
+                    "name": "GlobalIDIndex"
+                }
+            ],
+            "isDataVersioned": false,
+            "maxRecordCount": 1000,
+            "maxScale": 0,
+            "minScale": 0,
+            "name": "Collar_Deployment_Mule_Deer_1_0",
+            "objectIdField": "objectid",
+            "relationships": [
+            ],
+            "supportedQueryFormats": "JSON",
+            "supportsAdvancedQueries": true,
+            "supportsRollbackOnFailureParameter": true,
+            "supportsStatistics": true,
+            "templates": [
+            ],
+            "type": "Feature Layer",
+            "typeIdField": "",
+            "types": [
+            ]
+        }
+    ],
+    "tables": [
+        {
+            "capabilities": "Create,Delete,Query,Update,Uploads,Editing",
+            "copyrightText": "",
+            "defaultVisibility": true,
+            "description": "",
+            "displayField": "objectid",
+            "editFieldsInfo": null,
+            "fields": [
+                {
+                    "alias": "ObjectID",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": false,
+                    "name": "objectid",
+                    "nullable": false,
+                    "type": "esriFieldTypeOID"
+                },
+                {
+                    "alias": "GlobalID",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": false,
+                    "length": 38,
+                    "name": "globalid",
+                    "nullable": false,
+                    "sqlType": "sqlTypeGUID",
+                    "type": "esriFieldTypeGlobalID"
+                },
+                {
+                    "alias": "Temperature (°F)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "temperature",
+                    "nullable": true,
+                    "type": "esriFieldTypeDouble",
+                    "visible": true
+                },
+                {
+                    "alias": "Time",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "temp_time",
+                    "nullable": true,
+                    "type": "esriFieldTypeString",
+                    "visible": true
+                },
+                {
+                    "alias": "ParentGlobalID",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": true,
+                    "length": 38,
+                    "name": "parentglobalid",
+                    "nullable": true,
+                    "sqlType": "sqlTypeGUID",
+                    "type": "esriFieldTypeGUID"
+                }
+            ],
+            "globalIdField": "globalid",
+            "hasAttachments": false,
+            "htmlPopupType": "esriServerHTMLPopupTypeNone",
+            "id": 1,
+            "indexes": [
+                {
+                    "description": "GlobalID index",
+                    "fields": "globalid",
+                    "isAscending": false,
+                    "isUnique": true,
+                    "name": "GlobalIDIndex"
+                },
+                {
+                    "description": "Child Key Field index",
+                    "fields": "parentglobalid",
+                    "isAscending": false,
+                    "isUnique": false,
+                    "name": "ParentGlobalIDIndex"
+                }
+            ],
+            "isDataVersioned": false,
+            "maxRecordCount": 1000,
+            "name": "temperature_",
+            "objectIdField": "objectid",
+            "ownershipBasedAccessControlForFeatures": null,
+            "relationships": [
+            ],
+            "supportedQueryFormats": "JSON, AMF",
+            "supportsAdvancedQueries": true,
+            "supportsRollbackOnFailureParameter": true,
+            "supportsStatistics": true,
+            "syncCanReturnChanges": false,
+            "templates": [
+            ],
+            "type": "Table",
+            "typeIdField": "",
+            "types": [
+            ],
+            "useStandardizedQueries": true
+        },
+        {
+            "capabilities": "Create,Delete,Query,Update,Uploads,Editing",
+            "copyrightText": "",
+            "defaultVisibility": true,
+            "description": "",
+            "displayField": "objectid",
+            "editFieldsInfo": null,
+            "fields": [
+                {
+                    "alias": "ObjectID",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": false,
+                    "name": "objectid",
+                    "nullable": false,
+                    "type": "esriFieldTypeOID"
+                },
+                {
+                    "alias": "GlobalID",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": false,
+                    "length": 38,
+                    "name": "globalid",
+                    "nullable": false,
+                    "sqlType": "sqlTypeGUID",
+                    "type": "esriFieldTypeGlobalID"
+                },
+                {
+                    "alias": "Heart Rate (beats/min)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "heart_rate",
+                    "nullable": true,
+                    "type": "esriFieldTypeInteger",
+                    "visible": true
+                },
+                {
+                    "alias": "ParentGlobalID",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": true,
+                    "length": 38,
+                    "name": "parentglobalid",
+                    "nullable": true,
+                    "sqlType": "sqlTypeGUID",
+                    "type": "esriFieldTypeGUID"
+                }
+            ],
+            "globalIdField": "globalid",
+            "hasAttachments": false,
+            "htmlPopupType": "esriServerHTMLPopupTypeNone",
+            "id": 2,
+            "indexes": [
+                {
+                    "description": "GlobalID index",
+                    "fields": "globalid",
+                    "isAscending": false,
+                    "isUnique": true,
+                    "name": "GlobalIDIndex"
+                },
+                {
+                    "description": "Child Key Field index",
+                    "fields": "parentglobalid",
+                    "isAscending": false,
+                    "isUnique": false,
+                    "name": "ParentGlobalIDIndex"
+                }
+            ],
+            "isDataVersioned": false,
+            "maxRecordCount": 1000,
+            "name": "heart_rate_",
+            "objectIdField": "objectid",
+            "ownershipBasedAccessControlForFeatures": null,
+            "relationships": [
+            ],
+            "supportedQueryFormats": "JSON, AMF",
+            "supportsAdvancedQueries": true,
+            "supportsRollbackOnFailureParameter": true,
+            "supportsStatistics": true,
+            "syncCanReturnChanges": false,
+            "templates": [
+            ],
+            "type": "Table",
+            "typeIdField": "",
+            "types": [
+            ],
+            "useStandardizedQueries": true
+        },
+        {
+            "capabilities": "Create,Delete,Query,Update,Uploads,Editing",
+            "copyrightText": "",
+            "defaultVisibility": true,
+            "description": "",
+            "displayField": "objectid",
+            "editFieldsInfo": null,
+            "fields": [
+                {
+                    "alias": "ObjectID",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": false,
+                    "name": "objectid",
+                    "nullable": false,
+                    "type": "esriFieldTypeOID"
+                },
+                {
+                    "alias": "GlobalID",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": false,
+                    "length": 38,
+                    "name": "globalid",
+                    "nullable": false,
+                    "sqlType": "sqlTypeGUID",
+                    "type": "esriFieldTypeGlobalID"
+                },
+                {
+                    "alias": "Respiration Rate (breaths/min)",
+                    "domain": null,
+                    "editable": true,
+                    "length": 255,
+                    "name": "respiration_rate",
+                    "nullable": true,
+                    "type": "esriFieldTypeInteger",
+                    "visible": true
+                },
+                {
+                    "alias": "ParentGlobalID",
+                    "defaultValue": null,
+                    "domain": null,
+                    "editable": true,
+                    "length": 38,
+                    "name": "parentglobalid",
+                    "nullable": true,
+                    "sqlType": "sqlTypeGUID",
+                    "type": "esriFieldTypeGUID"
+                }
+            ],
+            "globalIdField": "globalid",
+            "hasAttachments": false,
+            "htmlPopupType": "esriServerHTMLPopupTypeNone",
+            "id": 3,
+            "indexes": [
+                {
+                    "description": "GlobalID index",
+                    "fields": "globalid",
+                    "isAscending": false,
+                    "isUnique": true,
+                    "name": "GlobalIDIndex"
+                },
+                {
+                    "description": "Child Key Field index",
+                    "fields": "parentglobalid",
+                    "isAscending": false,
+                    "isUnique": false,
+                    "name": "ParentGlobalIDIndex"
+                }
+            ],
+            "isDataVersioned": false,
+            "maxRecordCount": 1000,
+            "name": "respiration_rate_",
+            "objectIdField": "objectid",
+            "ownershipBasedAccessControlForFeatures": null,
+            "relationships": [
+            ],
+            "supportedQueryFormats": "JSON, AMF",
+            "supportsAdvancedQueries": true,
+            "supportsRollbackOnFailureParameter": true,
+            "supportsStatistics": true,
+            "syncCanReturnChanges": false,
+            "templates": [
+            ],
+            "type": "Table",
+            "typeIdField": "",
+            "types": [
+            ],
+            "useStandardizedQueries": true
+        }
+    ]
+}
